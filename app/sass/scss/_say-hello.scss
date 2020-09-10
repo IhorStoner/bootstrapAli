@@ -1,0 +1,74 @@
+.say-hello {
+
+    &__text {
+        color: #fff;
+        font-family: $font-family;
+    }
+    
+    & .logo {
+        margin-bottom: 35px;
+    }
+
+    & .footer-text {
+        margin: 0;
+    }
+
+    &__item {
+        padding: 75px 67px 72px 60px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &--bg-woman {
+            background-image: url(../../img/bg-woman.png);
+        }
+
+        &--bg-road {
+            background-image: url(../../img/bg-road.png);
+        }
+    }
+}
+
+.form {
+    margin-bottom: 95px;
+
+    &__content {
+        font-family: $font-family;
+    }
+
+    &__item {
+        background-color: transparent;
+        color: #fff;
+        border-radius: 8px;
+
+        &::placeholder {
+            color: #fff;
+        }
+    }
+}
+
+.links {
+    margin-bottom: 50px;
+    &__item {
+        
+        border: none;
+        background-position: center;
+        height: 45px;
+        width: 45px;
+        background-repeat: no-repeat;
+
+        &--facebook {
+            background-image: url(../../img/Facebook.png);
+            background-color: #345bb4;
+        }
+
+        &--dribbble {
+            background-image: url(../../img/Dribbble.png);
+            background-color: #e64895;
+        }
+
+        &--twitter {
+            background-image: url(../../img/Twitter.png);
+            background-color: #00b4ff;
+        }
+    }
+}

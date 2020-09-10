@@ -1,0 +1,35 @@
+.our-services {
+    &__content {
+        padding: 60px 100px 60px 60px;
+        background-image: url(../../img/bg-service.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.starting {
+    padding: 0;
+    &__item {
+        margin: 0;
+        padding: 70px 162px 70px 55px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50%;
+
+        &--black-bg {
+            background-image: url(../../img/bg-copy.png);
+        }
+
+        &--yellow-bg {
+            background-image: url(../../img/bg-start.png); 
+        }
+    }
+    // .best-starting {
+    //     background-image: url(../../img/bg-start.png);
+    //     margin: 0;
+    // }
+    
+    // .verified-dummy {
+    //     background-image: url(../../img/bg-copy.png);
+    // }
+}

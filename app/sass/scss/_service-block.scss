@@ -1,0 +1,52 @@
+$font-style: Roboto, san-serif;
+.service {
+    color: #fff;
+    margin-bottom: 85px;
+
+    &--black {
+        color: black;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &__btn {
+        border: 1px solid #262f32;
+        background-color: transparent;
+        padding: 17px 40px;
+        border-radius: 20px;
+        font-family: $font-family;
+
+        &--black {
+            color: black;
+        }
+    }
+
+    &__title {
+        font-size: 2rem;
+        font-weight: 300;
+        font-family: $font-family;
+        font-weight: 300;
+        letter-spacing: 1.35px;
+        &--mb {
+            margin-bottom: 257px;
+        }
+    }
+
+    &__content {
+        font-family: $font-family;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.47px;
+    }
+
+    &__item {
+        font-family: $font-family;
+        font-weight: 900;
+        letter-spacing: 1.35px;
+
+
+    }
+}

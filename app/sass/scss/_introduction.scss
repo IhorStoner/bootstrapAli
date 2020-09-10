@@ -1,0 +1,55 @@
+.bg-boy {
+    padding: 0;
+    &__img {
+        width: 100%;
+    }
+    background-image: url(../../img/img-boy.png);
+    background-size: cover;
+}
+
+.navigation {
+    padding: 57px 77px 101px 54px;
+    background-color: #f3f3f3;
+
+    &__menu {
+        margin-bottom: 70px;
+    }
+
+    &__btn {
+        background-color: transparent;
+        border: none;
+        width: 33px;
+        height: 29px;
+        background-image: url(../../img/nav_menu.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: unset;;
+
+        &::after {
+            display: none;
+        }
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+}
+
+.section-content {
+    margin: 0;
+
+    &__title {
+        font-size: 2rem;
+        &--thin {
+            font-weight: 400;
+        }
+
+        &--bold {
+            font-weight: bold;
+        }
+
+        &--margin {
+            margin-bottom: 60px;
+        }
+    }
+}
